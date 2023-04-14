@@ -20,7 +20,6 @@ const app = express()
 // view engine setup
 app.set('view engine', 'ejs')
 
-app.set('view engine', 'ejs')
 	
 // add middleware below the above line of code
 app.use(function(req, res, next) {
